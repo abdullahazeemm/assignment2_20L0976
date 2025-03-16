@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/blue"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnProfilePic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30px"
+        android:paddingBottom="30px"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:textSize="8pt"
+        android:text="Profile Picture" />
+    <Button
+        android:id="@+id/btnPersonalDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30px"
+        android:paddingBottom="30px"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:textSize="8pt"
+        android:text="Personal Details" />
+    <Button
+        android:id="@+id/btnSummary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30px"
+        android:paddingBottom="30px"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:textSize="8pt"
+        android:text="Summary" />
+    <Button
+        android:id="@+id/btnEducation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30px"
+        android:paddingBottom="30px"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:textSize="8pt"
+        android:text="Education" />
+    <Button
+        android:id="@+id/btnExperience"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30px"
+        android:paddingBottom="30px"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:textSize="8pt"
+        android:text="Experience" />
+    <Button
+        android:id="@+id/btnCertifications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30px"
+        android:paddingBottom="30px"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:textSize="8pt"
+        android:text="Certifications" />
+    <Button
+        android:id="@+id/btnReferences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30px"
+        android:paddingBottom="30px"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:textSize="8pt"
+        android:text="References" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30px"
+        android:paddingBottom="30px"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:textSize="8pt"
+        android:text="Submit" />
+
+</LinearLayout>

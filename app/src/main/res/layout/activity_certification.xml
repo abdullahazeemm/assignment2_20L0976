@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Certification Details"
+        android:gravity="center"
+        android:layout_marginBottom="50px"
+        android:layout_marginTop="10px"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:hint="Certification Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etOrg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:hint="Issuing organization"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:hint="Year"
+        android:inputType="number" />
+
+
+
+
+    <LinearLayout
+        android:id="@+id/btnView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        tools:context=".MainActivity"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="30px"
+            android:paddingBottom="30px"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:textSize="8pt"
+            android:text="Cancel"
+            android:layout_marginRight="20dp"/>
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="30px"
+            android:paddingBottom="30px"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/white"
+            android:textSize="8pt"
+            android:text="Submit"
+            android:background="@color/blue"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

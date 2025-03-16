@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Educational Details"
+        android:gravity="center"
+        android:layout_marginBottom="50px"
+        android:layout_marginTop="10px"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/etDegree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:hint="Degree name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etInstitute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:hint="Institute Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etGPA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:hint="GPA"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Start Year" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sStart"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="End Year" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sEnd"/>
+
+    <LinearLayout
+        android:id="@+id/btnView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        tools:context=".MainActivity"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="30px"
+            android:paddingBottom="30px"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:textSize="8pt"
+            android:text="Cancel"
+            android:layout_marginRight="20dp"/>
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="30px"
+            android:paddingBottom="30px"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/white"
+            android:textSize="8pt"
+            android:text="Submit"
+            android:background="@color/blue"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/lightblue"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ivProfilePic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Summary"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/tvPersonalDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Summary"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Summary"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/tvSummary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Summary"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Education"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/tvEducation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Education"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Experience"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/tvExperience"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="experience"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Certification"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/tvCertification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="certification"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="References"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/tvReferences"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="references"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
